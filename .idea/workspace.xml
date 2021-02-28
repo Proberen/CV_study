@@ -10,7 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d24aa4-5a4f-4442-95c1-cdf3a46337f1" name="默认的" comment="" />
+    <list default="true" id="c0d24aa4-5a4f-4442-95c1-cdf3a46337f1" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +38,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -109,7 +113,7 @@
       <workItem from="1614430357541" duration="100000" />
       <workItem from="1614430458872" duration="8472000" />
       <workItem from="1614476108260" duration="1542000" />
-      <workItem from="1614479965154" duration="19000" />
+      <workItem from="1614479965154" duration="698000" />
     </task>
     <servers />
   </component>
@@ -155,14 +159,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="555" y="354" key="Github.CreateGistDialog/0.0.1440.900@0.0.1440.900" timestamp="1614479756848" />
-    <state x="621" y="354" width="348" height="192" key="Github.ShareDialog" timestamp="1614476988973">
+    <state x="483" y="262" width="348" height="192" key="Github.ShareDialog" timestamp="1614480081572">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="621" y="354" width="348" height="192" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1614476988973" />
-    <state x="448" y="74" key="Github.UntrackedFilesDialog" timestamp="1614474117875">
+    <state x="483" y="262" width="348" height="192" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1614480081572" />
+    <state x="448" y="74" key="Github.UntrackedFilesDialog" timestamp="1614480129388">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="448" y="74" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1614474117875" />
+    <state x="448" y="74" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1614480129388" />
     <state width="1398" height="252" key="GridCell.Tab.0.bottom" timestamp="1614476086966">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
