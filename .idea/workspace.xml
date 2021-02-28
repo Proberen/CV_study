@@ -10,9 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d24aa4-5a4f-4442-95c1-cdf3a46337f1" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/pytorch基础学习/优化/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/优化/train.py" afterDir="false" />
-    </list>
+    <list default="true" id="c0d24aa4-5a4f-4442-95c1-cdf3a46337f1" name="默认的" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +47,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -61,6 +59,9 @@
       <module name="study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytorch基础/练习" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -168,6 +169,9 @@
       <module name="study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytorch基础学习/优化" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -213,6 +217,7 @@
       <workItem from="1614430458872" duration="8472000" />
       <workItem from="1614476108260" duration="1542000" />
       <workItem from="1614479965154" duration="8510000" />
+      <workItem from="1614509663233" duration="29000" />
     </task>
     <task id="LOCAL-00001" summary="v2">
       <created>1614496124895</created>
@@ -276,110 +281,10 @@
     <MESSAGE value="v2_2.18 pytorch学习结束" />
     <option name="LAST_COMMIT_MESSAGE" value="v2_2.18 pytorch学习结束" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="184" y="109" width="1071" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614503034401">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614503034401" />
-    <state x="184" y="109" width="1071" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1614430492362" />
-    <state x="517" y="246" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614496809939">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="517" y="246" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614496809939" />
-    <state x="517" y="246" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1614430278925" />
-    <state x="445" y="278" key="#通知" timestamp="1614476721778">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="445" y="278" key="#通知/0.0.1440.900@0.0.1440.900" timestamp="1614476721778" />
-    <state x="331" y="0" width="741" height="900" key="CommitChangelistDialog2" timestamp="1614507518476">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="331" y="0" width="741" height="900" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614503448949" />
-    <state x="331" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1614507518476" />
-    <state x="555" y="354" key="Github.CreateGistDialog" timestamp="1614479756848">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="555" y="354" key="Github.CreateGistDialog/0.0.1440.900@0.0.1440.900" timestamp="1614479756848" />
-    <state x="483" y="262" width="348" height="192" key="Github.ShareDialog" timestamp="1614480081572">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="483" y="262" width="348" height="192" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1614480081572" />
-    <state x="448" y="74" key="Github.UntrackedFilesDialog" timestamp="1614480129388">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="448" y="74" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1614480129388" />
-    <state width="1398" height="240" key="GridCell.Tab.0.bottom" timestamp="1614503308113">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="240" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614503308113" />
-    <state width="1398" height="252" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614476086966" />
-    <state width="1398" height="240" key="GridCell.Tab.0.center" timestamp="1614503308111">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="240" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614503308111" />
-    <state width="1398" height="252" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1614476086965" />
-    <state width="1398" height="240" key="GridCell.Tab.0.left" timestamp="1614503308110">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="240" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614503308110" />
-    <state width="1398" height="252" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1614476086964" />
-    <state width="1398" height="240" key="GridCell.Tab.0.right" timestamp="1614503308112">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="240" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614503308112" />
-    <state width="1398" height="252" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1614476086966" />
-    <state width="1398" height="252" key="GridCell.Tab.1.bottom" timestamp="1614499429150">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="252" key="GridCell.Tab.1.bottom/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614499429150" />
-    <state width="1398" height="252" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614476086969" />
-    <state width="1398" height="252" key="GridCell.Tab.1.center" timestamp="1614499429149">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="252" key="GridCell.Tab.1.center/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614499429149" />
-    <state width="1398" height="252" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1614476086968" />
-    <state width="1398" height="252" key="GridCell.Tab.1.left" timestamp="1614499429148">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="252" key="GridCell.Tab.1.left/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614499429148" />
-    <state width="1398" height="252" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1614476086967" />
-    <state width="1398" height="252" key="GridCell.Tab.1.right" timestamp="1614499429150">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="252" key="GridCell.Tab.1.right/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614499429150" />
-    <state width="1398" height="252" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1614476086969" />
-    <state x="224" y="86" key="SettingsEditor" timestamp="1614479983378">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="229" y="86" key="SettingsEditor/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614425777971" />
-    <state x="224" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1614479983378" />
-    <state x="320" y="183" key="Vcs.Push.Dialog.v2" timestamp="1614507565938">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="320" y="183" key="Vcs.Push.Dialog.v2/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614503459696" />
-    <state x="320" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1614507565938" />
-    <state x="548" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614507287939">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="548" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614503373983" />
-    <state x="548" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1614507287939" />
-    <state x="532" y="324" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1614479726344">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="532" y="324" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1440.900@0.0.1440.900" timestamp="1614479726344" />
-    <state x="472" y="340" key="git4idea.ui.GitResetDialog" timestamp="1614476936508">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="472" y="340" key="git4idea.ui.GitResetDialog/0.0.1440.900@0.0.1440.900" timestamp="1614476936508" />
-    <state x="573" y="407" width="525" height="457" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1614429846849">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="573" y="407" width="525" height="457" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1440.900@0.0.1440.900" timestamp="1614429846849" />
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/study$train.coverage" NAME="train Coverage Results" MODIFIED="1614502751431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch基础学习/优化" />
-    <SUITE FILE_PATH="coverage/study$detect.coverage" NAME="detect Coverage Results" MODIFIED="1614503308096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch基础学习/优化" />
-    <SUITE FILE_PATH="coverage/study$model.coverage" NAME="model Coverage Results" MODIFIED="1614435992660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch基础/练习" />
     <SUITE FILE_PATH="coverage/study$dataset.coverage" NAME="dataset Coverage Results" MODIFIED="1614499488698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch基础/练习" />
+    <SUITE FILE_PATH="coverage/study$train.coverage" NAME="train Coverage Results" MODIFIED="1614502751431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch基础学习/优化" />
+    <SUITE FILE_PATH="coverage/study$model.coverage" NAME="model Coverage Results" MODIFIED="1614435992660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch基础/练习" />
+    <SUITE FILE_PATH="coverage/study$detect.coverage" NAME="detect Coverage Results" MODIFIED="1614503308096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch基础学习/优化" />
   </component>
 </project>
