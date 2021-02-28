@@ -11,8 +11,516 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0d24aa4-5a4f-4442-95c1-cdf3a46337f1" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytorch基础学习/优化/dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytorch基础学习/优化/loss.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytorch基础学习/优化/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytorch基础学习/优化/model_RMB.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytorch基础学习/优化/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytorch基础学习/练习/loss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytorch基础学习/练习/loss_optimizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/.idea/pytorch基础.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/.idea/pytorch基础.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_classify.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/练习/RMB_classify.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/01B68AKT.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/01B68AKT.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/01EIM65B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/01EIM65B.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/01LNYXO4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/01LNYXO4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/01MF2W5S.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/01MF2W5S.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/01NISKCG.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/01NISKCG.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/02C4V1SW.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/02C4V1SW.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/03WGM2XG.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/03WGM2XG.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/03WV6GFZ.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/03WV6GFZ.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/04A32I57.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/04A32I57.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/04MGL637.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/04MGL637.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/04QE2KHA.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/04QE2KHA.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/04QGLB16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/04QGLB16.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/04RWK2B5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/04RWK2B5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/04VRAHK2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/04VRAHK2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/04YVW9CN.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/04YVW9CN.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/05MLGSGI.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/05MLGSGI.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/05MO1N93.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/05MO1N93.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/07GVXBMG.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/07GVXBMG.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/07HTXU3W.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/07HTXU3W.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/07IUEGQX.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/07IUEGQX.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/07PVUGTB.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/07PVUGTB.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0B89KOA3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0B89KOA3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0BGHNV6P.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0BGHNV6P.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0BRO7XVG.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0BRO7XVG.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0C4UDH9S.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0C4UDH9S.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0CNU427V.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0CNU427V.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0CTO7MER.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0CTO7MER.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0D29EFZO.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0D29EFZO.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0D6HCAXL.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0D6HCAXL.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0D73KYGN.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0D73KYGN.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0DLF8NU6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0DLF8NU6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0DLW9G7O.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0DLW9G7O.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0DRZXTK3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0DRZXTK3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0E4QRCTS.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0E4QRCTS.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0E5Q62TM.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0E5Q62TM.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0E6AGCOW.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0E6AGCOW.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0EBSK2GF.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0EBSK2GF.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0EMSWVIR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0EMSWVIR.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0EP9R4N8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0EP9R4N8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0EZ7ND18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0EZ7ND18.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0F9CEKGH.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0F9CEKGH.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0FA8LD9Z.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0FA8LD9Z.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0FY3IOKC.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0FY3IOKC.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0G7ZDUOL.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0G7ZDUOL.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0GE1UZT5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0GE1UZT5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0GFISMAH.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0GFISMAH.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0GHKAWQX.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0GHKAWQX.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0GP1SABX.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0GP1SABX.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0GPYRDQM.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0GPYRDQM.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0GQBKCAW.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0GQBKCAW.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0GRZFSDG.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0GRZFSDG.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0GZN8V26.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0GZN8V26.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0H2X15GN.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0H2X15GN.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0H5TYFCG.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0H5TYFCG.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0HBEG1TG.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0HBEG1TG.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0HK5MCIY.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0HK5MCIY.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0HO24UXQ.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0HO24UXQ.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0I1X9SDG.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0I1X9SDG.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0IDB8M67.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0IDB8M67.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0IPXU5A9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0IPXU5A9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0KOIAHWT.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0KOIAHWT.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0KS8UVFH.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0KS8UVFH.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0KYWGVO5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0KYWGVO5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0L7G631P.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0L7G631P.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0LWI5TZA.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0LWI5TZA.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0M9RSHZX.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0M9RSHZX.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0MN9158I.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0MN9158I.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0MNY59BW.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0MNY59BW.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0MOHTNXQ.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0MOHTNXQ.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0MRGZVBU.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0MRGZVBU.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0MVSIP89.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0MVSIP89.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0NAQUMVX.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0NAQUMVX.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0NARV1BG.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0NARV1BG.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0NK2SDAY.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0NK2SDAY.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0NP96EGY.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0NP96EGY.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0O1LZWHQ.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0O1LZWHQ.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0OFE6MSI.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0OFE6MSI.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0ON7E9RU.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0ON7E9RU.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0OS6ZK8X.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0OS6ZK8X.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0PNDS7OG.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0PNDS7OG.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0QDIG4BK.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0QDIG4BK.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0QS21LZ5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0QS21LZ5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0QX8O4K5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0QX8O4K5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0R2P4H1I.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0R2P4H1I.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0R5836GQ.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0R5836GQ.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0R5C4V7X.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0R5C4V7X.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0RAYEIFB.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0RAYEIFB.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0RBDE8G9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0RBDE8G9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0RNYOPL5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0RNYOPL5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/1/0RPZ5WDL.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/1/0RPZ5WDL.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/01GUGTQ4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/01GUGTQ4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/02GMCEUY.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/02GMCEUY.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/02OE5LH4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/02OE5LH4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/02U7GMR4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/02U7GMR4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/04PKGVRH.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/04PKGVRH.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/04VA2NX7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/04VA2NX7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/04W3GHSB.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/04W3GHSB.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/04XUW3YA.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/04XUW3YA.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/04Y816LH.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/04Y816LH.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/05CGTWNF.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/05CGTWNF.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/05IDEW2M.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/05IDEW2M.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/05NY9E4L.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/05NY9E4L.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/06DCY1X7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/06DCY1X7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/06NEIRC4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/06NEIRC4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/06WXAH5B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/06WXAH5B.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/07C64BY2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/07C64BY2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/07EVDRNY.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/07EVDRNY.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/07G9OTZ8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/07G9OTZ8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/07GG9EL5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/07GG9EL5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/07UHGSGR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/07UHGSGR.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0A4DSPGE.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0A4DSPGE.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0A8IHWYD.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0A8IHWYD.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0AGN4YMI.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0AGN4YMI.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0AXUR9N7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0AXUR9N7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0AYIPVK9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0AYIPVK9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0B4S7DIX.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0B4S7DIX.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0B6G4MGL.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0B6G4MGL.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0BEHP27M.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0BEHP27M.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0BOVSMYN.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0BOVSMYN.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0BT9RL7V.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0BT9RL7V.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0E6MQZRX.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0E6MQZRX.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0F9X81GD.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0F9X81GD.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0FBU7PYL.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0FBU7PYL.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0FGZ2O94.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0FGZ2O94.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0FI3Q5G6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0FI3Q5G6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0FLQ2NM8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0FLQ2NM8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0FVUA72W.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0FVUA72W.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0GBP7VOD.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0GBP7VOD.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0GK7QWHV.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0GK7QWHV.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0GO4CF9X.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0GO4CF9X.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0H3XGENW.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0H3XGENW.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0I18Y4DC.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0I18Y4DC.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0I376P29.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0I376P29.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0ICF2DMA.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0ICF2DMA.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0IPRGGO8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0IPRGGO8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0IUO1B5C.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0IUO1B5C.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0K3UG2A7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0K3UG2A7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0K9UF7PZ.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0K9UF7PZ.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0KR1M3IQ.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0KR1M3IQ.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0KVUR7IY.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0KVUR7IY.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0L6X2HUZ.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0L6X2HUZ.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0LIKD2CE.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0LIKD2CE.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0M2XL8TP.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0M2XL8TP.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0M9ELBI8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0M9ELBI8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0MEDOLBT.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0MEDOLBT.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0MEG4GXO.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0MEG4GXO.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0MLDWG4I.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0MLDWG4I.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0N6GK7DV.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0N6GK7DV.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0NOGYHMV.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0NOGYHMV.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0NR17KZY.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0NR17KZY.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0NVG5T3I.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0NVG5T3I.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0NVLGX81.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0NVLGX81.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0OMXR67T.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0OMXR67T.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0OWAK5B7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0OWAK5B7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0P1HGRT2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0P1HGRT2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0P3IQFN1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0P3IQFN1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0P3LXCWK.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0P3LXCWK.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0PDHIO85.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0PDHIO85.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0PGDL742.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0PGDL742.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0PLFQ4UI.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0PLFQ4UI.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0PQXSWVG.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0PQXSWVG.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0QDUHBWO.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0QDUHBWO.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0R6X4SO8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0R6X4SO8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0S4TL8YH.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0S4TL8YH.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0TPMVXD2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0TPMVXD2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0TW2YELM.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0TW2YELM.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0U47M9CX.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0U47M9CX.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0UB46RM1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0UB46RM1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0W462YMN.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0W462YMN.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0WLNF8AG.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0WLNF8AG.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0WLO5FN2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0WLO5FN2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0WMICN9B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0WMICN9B.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0WRGMZ5Y.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0WRGMZ5Y.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0WV65B8Z.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0WV65B8Z.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0X8MOP1K.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0X8MOP1K.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0YSHMFA2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0YSHMFA2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0YU1K84V.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0YU1K84V.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0Z1DMA2S.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0Z1DMA2S.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0Z85G1SR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0Z85G1SR.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/train/100/0ZA9M8E2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/train/100/0ZA9M8E2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/valid/1/049I6MVB.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/valid/1/049I6MVB.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/valid/1/059GS728.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/valid/1/059GS728.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/valid/1/067TZA8C.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/valid/1/067TZA8C.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/valid/1/069N3OK2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/valid/1/069N3OK2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/valid/1/073LW92O.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/valid/1/073LW92O.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/valid/1/07R6PKIX.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/valid/1/07R6PKIX.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/valid/1/08596RNG.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/valid/1/08596RNG.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/valid/1/08C3EHPG.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/valid/1/08C3EHPG.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/valid/1/09F2SGOT.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/valid/1/09F2SGOT.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/valid/1/09PUM1HY.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/valid/1/09PUM1HY.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/valid/100/013MNV9B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/valid/100/013MNV9B.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/valid/100/01953EH7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/valid/100/01953EH7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/valid/100/0237YRPB.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/valid/100/0237YRPB.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/valid/100/027AXFQE.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/valid/100/027AXFQE.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/valid/100/062RVGPX.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/valid/100/062RVGPX.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/valid/100/069EUOGR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/valid/100/069EUOGR.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/valid/100/0845ZXHV.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/valid/100/0845ZXHV.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/valid/100/08FB4P92.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/valid/100/08FB4P92.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/valid/100/08KCVAP1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/valid/100/08KCVAP1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/RMB_data/rmb_split/valid/100/094HN2DV.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/RMB_data/rmb_split/valid/100/094HN2DV.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/detect.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/优化/detect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/loss_optimizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/model_state_dict.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/优化/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/train_gpu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/练习/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/练习/dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch基础/练习/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch基础学习/练习/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/LR.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/LR.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/cfg/yolov3-tiny-3cls.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/cfg/yolov3-tiny-3cls.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/ImageSets/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/ImageSets/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/ImageSets/train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/ImageSets/train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/ImageSets/val.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/ImageSets/val.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671521137.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671521137.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671524391.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671524391.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671527608.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671527608.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671530775.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671530775.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671533811.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671533811.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671537012.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671537012.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671540164.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671540164.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671543147.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671543147.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671546314.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671546314.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671549567.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671549567.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671552633.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671552633.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671555751.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671555751.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671562003.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671562003.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671564971.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671564971.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671568042.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671568042.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671571242.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671571242.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671574475.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671574475.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671577596.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671577596.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671580763.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671580763.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671583931.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671583931.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671587198.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671587198.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671590499.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671590499.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671593835.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671593835.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671597169.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671597169.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671600504.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671600504.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671603788.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671603788.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671607089.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671607089.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671610424.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671610424.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671613761.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671613761.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671617044.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671617044.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671623713.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671623713.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671639902.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671639902.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671643153.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671643153.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671646420.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671646420.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671649723.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671649723.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671653023.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671653023.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671656224.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671656224.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671659492.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671659492.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671662797.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671662797.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671666114.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671666114.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671669447.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671669447.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671672747.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671672747.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671676083.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671676083.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671679416.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671679416.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671682721.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671682721.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671686020.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671686020.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671689356.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671689356.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671692455.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671692455.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671695773.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671695773.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671699108.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671699108.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671702445.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671702445.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671705811.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671705811.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671709012.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671709012.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671712279.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671712279.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671715648.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671715648.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671719016.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671719016.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671722350.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671722350.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671725603.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671725603.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671728869.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671728869.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671732238.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671732238.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671735571.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671735571.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671738923.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671738923.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671742225.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671742225.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671745580.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671745580.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671748946.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671748946.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671752230.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671752230.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671755595.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671755595.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671758899.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671758899.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671762267.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671762267.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671768954.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671768954.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671772290.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671772290.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671775653.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671775653.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/Images/1598671778974.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/Images/1598671778974.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/dnf.data" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/dnf.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/dnf.names" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/dnf.names" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/makeTxt.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/makeTxt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671521137.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671521137.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671524391.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671524391.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671527608.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671527608.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671530775.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671530775.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671533811.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671533811.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671537012.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671537012.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671540164.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671540164.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671543147.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671543147.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671546314.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671546314.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671549567.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671549567.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671552633.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671552633.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671555751.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671555751.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671562003.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671562003.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671564971.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671564971.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671568042.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671568042.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671571242.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671571242.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671574475.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671574475.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671577596.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671577596.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671580763.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671580763.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671583931.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671583931.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671587198.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671587198.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671590499.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671590499.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671593835.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671593835.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671597169.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671597169.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671600504.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671600504.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671603788.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671603788.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671607089.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671607089.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671610424.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671610424.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671613761.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671613761.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671617044.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671617044.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671623713.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671623713.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671639902.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671639902.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671643153.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671643153.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671646420.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671646420.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671649723.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671649723.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671653023.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671653023.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671656224.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671656224.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671659492.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671659492.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671662797.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671662797.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671666114.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671666114.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671669447.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671669447.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671672747.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671672747.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671676083.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671676083.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671679416.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671679416.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671682721.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671682721.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671686020.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671686020.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671689356.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671689356.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671692455.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671692455.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671695773.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671695773.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671699108.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671699108.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671702445.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671702445.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671705811.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671705811.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671709012.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671709012.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671712279.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671712279.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671715648.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671715648.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671719016.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671719016.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671722350.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671722350.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671725603.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671725603.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671728869.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671728869.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671732238.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671732238.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671735571.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671735571.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671738923.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671738923.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671742225.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671742225.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671745580.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671745580.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671748946.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671748946.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671752230.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671752230.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671755595.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671755595.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671758899.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671758899.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671762267.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671762267.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671768954.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671768954.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671772290.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671772290.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671775653.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671775653.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/txt/1598671778974.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/txt/1598671778974.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/val.shapes" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/val.shapes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/val.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/val.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/voc_label.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/voc_label.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671521137.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671521137.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671524391.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671524391.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671527608.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671527608.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671530775.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671530775.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671533811.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671533811.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671537012.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671537012.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671540164.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671540164.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671543147.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671543147.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671546314.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671546314.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671549567.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671549567.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671552633.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671552633.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671555751.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671555751.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671562003.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671562003.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671564971.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671564971.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671568042.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671568042.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671571242.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671571242.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671574475.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671574475.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671577596.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671577596.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671580763.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671580763.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671583931.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671583931.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671587198.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671587198.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671590499.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671590499.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671593835.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671593835.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671597169.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671597169.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671600504.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671600504.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671603788.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671603788.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671607089.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671607089.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671610424.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671610424.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671613761.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671613761.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671617044.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671617044.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671623713.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671623713.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671639902.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671639902.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671643153.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671643153.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671646420.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671646420.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671649723.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671649723.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671653023.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671653023.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671656224.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671656224.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671659492.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671659492.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671662797.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671662797.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671666114.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671666114.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671669447.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671669447.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671672747.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671672747.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671676083.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671676083.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671679416.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671679416.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671682721.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671682721.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671686020.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671686020.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671689356.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671689356.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671692455.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671692455.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671695773.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671695773.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671699108.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671699108.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671702445.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671702445.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671705811.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671705811.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671709012.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671709012.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671712279.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671712279.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671715648.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671715648.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671719016.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671719016.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671722350.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671722350.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671725603.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671725603.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671728869.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671728869.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671732238.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671732238.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671735571.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671735571.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671738923.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671738923.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671742225.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671742225.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671745580.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671745580.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671748946.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671748946.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671752230.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671752230.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671755595.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671755595.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671758899.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671758899.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671762267.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671762267.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671768954.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671768954.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671772290.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671772290.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671775653.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671775653.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/data/xml/1598671778974.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/data/xml/1598671778974.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/detect.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/detect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/results.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/results.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Dec01_00-21-31_DESKTOP-JQ7DNKA/events.out.tfevents.1606753291.DESKTOP-JQ7DNKA.9000.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Dec01_00-21-31_DESKTOP-JQ7DNKA/events.out.tfevents.1606753291.DESKTOP-JQ7DNKA.9000.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Dec02_21-44-05_DESKTOP-JQ7DNKA/events.out.tfevents.1606916645.DESKTOP-JQ7DNKA.10208.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Dec02_21-44-05_DESKTOP-JQ7DNKA/events.out.tfevents.1606916645.DESKTOP-JQ7DNKA.10208.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Dec02_21-45-47_DESKTOP-JQ7DNKA/events.out.tfevents.1606916747.DESKTOP-JQ7DNKA.8860.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Dec02_21-45-47_DESKTOP-JQ7DNKA/events.out.tfevents.1606916747.DESKTOP-JQ7DNKA.8860.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Dec02_21-50-44_DESKTOP-JQ7DNKA/events.out.tfevents.1606917044.DESKTOP-JQ7DNKA.13980.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Dec02_21-50-44_DESKTOP-JQ7DNKA/events.out.tfevents.1606917044.DESKTOP-JQ7DNKA.13980.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Dec02_21-57-54_DESKTOP-JQ7DNKA/events.out.tfevents.1606917474.DESKTOP-JQ7DNKA.8540.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Dec02_21-57-54_DESKTOP-JQ7DNKA/events.out.tfevents.1606917474.DESKTOP-JQ7DNKA.8540.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Dec02_22-00-15_DESKTOP-JQ7DNKA/events.out.tfevents.1606917615.DESKTOP-JQ7DNKA.13356.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Dec02_22-00-15_DESKTOP-JQ7DNKA/events.out.tfevents.1606917615.DESKTOP-JQ7DNKA.13356.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Dec02_22-02-50_DESKTOP-JQ7DNKA/events.out.tfevents.1606917770.DESKTOP-JQ7DNKA.15020.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Dec02_22-02-50_DESKTOP-JQ7DNKA/events.out.tfevents.1606917770.DESKTOP-JQ7DNKA.15020.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Dec02_22-04-18_DESKTOP-JQ7DNKA/events.out.tfevents.1606917858.DESKTOP-JQ7DNKA.4248.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Dec02_22-04-18_DESKTOP-JQ7DNKA/events.out.tfevents.1606917858.DESKTOP-JQ7DNKA.4248.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Dec02_22-07-33_DESKTOP-JQ7DNKA/events.out.tfevents.1606918053.DESKTOP-JQ7DNKA.9492.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Dec02_22-07-33_DESKTOP-JQ7DNKA/events.out.tfevents.1606918053.DESKTOP-JQ7DNKA.9492.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Dec02_22-08-21_DESKTOP-JQ7DNKA/events.out.tfevents.1606918101.DESKTOP-JQ7DNKA.3368.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Dec02_22-08-21_DESKTOP-JQ7DNKA/events.out.tfevents.1606918101.DESKTOP-JQ7DNKA.3368.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Dec02_22-20-31_DESKTOP-JQ7DNKA/events.out.tfevents.1606918831.DESKTOP-JQ7DNKA.15220.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Dec02_22-20-31_DESKTOP-JQ7DNKA/events.out.tfevents.1606918831.DESKTOP-JQ7DNKA.15220.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Dec02_22-57-00_DESKTOP-JQ7DNKA/events.out.tfevents.1606921020.DESKTOP-JQ7DNKA.15044.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Dec02_22-57-00_DESKTOP-JQ7DNKA/events.out.tfevents.1606921020.DESKTOP-JQ7DNKA.15044.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Dec02_23-10-58_DESKTOP-JQ7DNKA/events.out.tfevents.1606921858.DESKTOP-JQ7DNKA.13484.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Dec02_23-10-58_DESKTOP-JQ7DNKA/events.out.tfevents.1606921858.DESKTOP-JQ7DNKA.13484.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Dec02_23-11-57_DESKTOP-JQ7DNKA/events.out.tfevents.1606921917.DESKTOP-JQ7DNKA.8352.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Dec02_23-11-57_DESKTOP-JQ7DNKA/events.out.tfevents.1606921917.DESKTOP-JQ7DNKA.8352.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Dec02_23-12-07_DESKTOP-JQ7DNKA/events.out.tfevents.1606921927.DESKTOP-JQ7DNKA.3968.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Dec02_23-12-07_DESKTOP-JQ7DNKA/events.out.tfevents.1606921927.DESKTOP-JQ7DNKA.3968.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Dec02_23-13-26_DESKTOP-JQ7DNKA/events.out.tfevents.1606922006.DESKTOP-JQ7DNKA.13860.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Dec02_23-13-26_DESKTOP-JQ7DNKA/events.out.tfevents.1606922006.DESKTOP-JQ7DNKA.13860.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Dec02_23-14-17_DESKTOP-JQ7DNKA/events.out.tfevents.1606922057.DESKTOP-JQ7DNKA.14504.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Dec02_23-14-17_DESKTOP-JQ7DNKA/events.out.tfevents.1606922057.DESKTOP-JQ7DNKA.14504.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Dec02_23-16-23_DESKTOP-JQ7DNKA/events.out.tfevents.1606922183.DESKTOP-JQ7DNKA.11340.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Dec02_23-16-23_DESKTOP-JQ7DNKA/events.out.tfevents.1606922183.DESKTOP-JQ7DNKA.11340.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Dec02_23-18-09_DESKTOP-JQ7DNKA/events.out.tfevents.1606922289.DESKTOP-JQ7DNKA.13188.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Dec02_23-18-09_DESKTOP-JQ7DNKA/events.out.tfevents.1606922289.DESKTOP-JQ7DNKA.13188.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Dec02_23-18-41_DESKTOP-JQ7DNKA/events.out.tfevents.1606922321.DESKTOP-JQ7DNKA.3664.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Dec02_23-18-41_DESKTOP-JQ7DNKA/events.out.tfevents.1606922321.DESKTOP-JQ7DNKA.3664.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Dec02_23-19-11_DESKTOP-JQ7DNKA/events.out.tfevents.1606922351.DESKTOP-JQ7DNKA.10512.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Dec02_23-19-11_DESKTOP-JQ7DNKA/events.out.tfevents.1606922351.DESKTOP-JQ7DNKA.10512.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Dec02_23-19-55_DESKTOP-JQ7DNKA/events.out.tfevents.1606922395.DESKTOP-JQ7DNKA.13320.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Dec02_23-19-55_DESKTOP-JQ7DNKA/events.out.tfevents.1606922395.DESKTOP-JQ7DNKA.13320.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Dec02_23-58-49_DESKTOP-JQ7DNKA/events.out.tfevents.1606924729.DESKTOP-JQ7DNKA.10796.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Dec02_23-58-49_DESKTOP-JQ7DNKA/events.out.tfevents.1606924729.DESKTOP-JQ7DNKA.10796.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Dec03_00-03-26_DESKTOP-JQ7DNKA/events.out.tfevents.1606925006.DESKTOP-JQ7DNKA.14212.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Dec03_00-03-26_DESKTOP-JQ7DNKA/events.out.tfevents.1606925006.DESKTOP-JQ7DNKA.14212.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Dec03_00-08-06_DESKTOP-JQ7DNKA/events.out.tfevents.1606925286.DESKTOP-JQ7DNKA.2704.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Dec03_00-08-06_DESKTOP-JQ7DNKA/events.out.tfevents.1606925286.DESKTOP-JQ7DNKA.2704.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Dec03_00-14-54_DESKTOP-JQ7DNKA/events.out.tfevents.1606925694.DESKTOP-JQ7DNKA.4516.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Dec03_00-14-54_DESKTOP-JQ7DNKA/events.out.tfevents.1606925694.DESKTOP-JQ7DNKA.4516.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Dec03_00-15-29_DESKTOP-JQ7DNKA/events.out.tfevents.1606925729.DESKTOP-JQ7DNKA.14820.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Dec03_00-15-29_DESKTOP-JQ7DNKA/events.out.tfevents.1606925729.DESKTOP-JQ7DNKA.14820.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Dec03_00-39-52_DESKTOP-JQ7DNKA/events.out.tfevents.1606927192.DESKTOP-JQ7DNKA.6172.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Dec03_00-39-52_DESKTOP-JQ7DNKA/events.out.tfevents.1606927192.DESKTOP-JQ7DNKA.6172.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Dec03_00-44-22_DESKTOP-JQ7DNKA/events.out.tfevents.1606927462.DESKTOP-JQ7DNKA.152.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Dec03_00-44-22_DESKTOP-JQ7DNKA/events.out.tfevents.1606927462.DESKTOP-JQ7DNKA.152.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Dec04_09-56-54_DESKTOP-JQ7DNKA/events.out.tfevents.1607047014.DESKTOP-JQ7DNKA.8100.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Dec04_09-56-54_DESKTOP-JQ7DNKA/events.out.tfevents.1607047014.DESKTOP-JQ7DNKA.8100.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Dec06_15-09-08_DESKTOP-JQ7DNKA/events.out.tfevents.1607238548.DESKTOP-JQ7DNKA.12620.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Dec06_15-09-08_DESKTOP-JQ7DNKA/events.out.tfevents.1607238548.DESKTOP-JQ7DNKA.12620.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Nov30_23-39-54_DESKTOP-JQ7DNKA/events.out.tfevents.1606750794.DESKTOP-JQ7DNKA.11000.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Nov30_23-39-54_DESKTOP-JQ7DNKA/events.out.tfevents.1606750794.DESKTOP-JQ7DNKA.11000.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Nov30_23-45-18_DESKTOP-JQ7DNKA/events.out.tfevents.1606751118.DESKTOP-JQ7DNKA.8264.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Nov30_23-45-18_DESKTOP-JQ7DNKA/events.out.tfevents.1606751118.DESKTOP-JQ7DNKA.8264.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/runs/Nov30_23-50-16_DESKTOP-JQ7DNKA/events.out.tfevents.1606751416.DESKTOP-JQ7DNKA.15236.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/runs/Nov30_23-50-16_DESKTOP-JQ7DNKA/events.out.tfevents.1606751416.DESKTOP-JQ7DNKA.15236.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/utils/adabound.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/utils/adabound.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/utils/datasets.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/utils/datasets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/utils/evolve.sh" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/utils/evolve.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/utils/gcp.sh" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/utils/gcp.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/utils/google_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/utils/google_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/utils/parse_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/utils/parse_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/utils/torch_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/utils/torch_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/utils/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/utils/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/weights/best.pt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/weights/best.pt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/weights/last.pt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/weights/last.pt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo基础1/weights/yolov3-tiny.conv.15" beforeDir="false" afterPath="$PROJECT_DIR$/yolo基础学习/weights/yolov3-tiny.conv.15" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,16 +539,19 @@
   </component>
   <component name="JupyterTrust" id="52555e78-50b4-4178-9ace-eb48991b12b7" />
   <component name="ProjectId" id="1p3xfqwOUAerK3BN5ptwIvFpjFf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="新增" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pytorch基础/优化" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,7 +560,53 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Python.model">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pytorch基础/优化" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.detect">
+    <configuration name="RMB_classify" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytorch基础/练习" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytorch基础/练习/RMB_classify.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/opt/anaconda3/envs/deeplearning/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -64,6 +621,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytorch基础/练习/dataset.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="detect" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/opt/anaconda3/envs/deeplearning/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytorch基础学习/优化" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytorch基础学习/优化/detect.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,10 +673,39 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytorch基础学习/优化" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytorch基础学习/优化/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.dataset" />
+      <item itemvalue="Python.model" />
+      <item itemvalue="Python.RMB_classify" />
+      <item itemvalue="Python.train" />
+      <item itemvalue="Python.detect" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.model" />
+        <item itemvalue="Python.detect" />
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.train" />
         <item itemvalue="Python.dataset" />
+        <item itemvalue="Python.RMB_classify" />
       </list>
     </recent_temporary>
   </component>
@@ -113,8 +721,16 @@
       <workItem from="1614430357541" duration="100000" />
       <workItem from="1614430458872" duration="8472000" />
       <workItem from="1614476108260" duration="1542000" />
-      <workItem from="1614479965154" duration="698000" />
+      <workItem from="1614479965154" duration="7858000" />
     </task>
+    <task id="LOCAL-00001" summary="v2">
+      <created>1614496124895</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614496124895</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,27 +749,32 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="v2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="109" width="1071" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614430492362">
+    <state x="184" y="109" width="1071" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614503034401">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614503034401" />
     <state x="184" y="109" width="1071" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1614430492362" />
-    <state x="517" y="246" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614430278925">
+    <state x="517" y="246" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614496809939">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="517" y="246" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614496809939" />
     <state x="517" y="246" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1614430278925" />
     <state x="445" y="278" key="#通知" timestamp="1614476721778">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="445" y="278" key="#通知/0.0.1440.900@0.0.1440.900" timestamp="1614476721778" />
-    <state x="331" y="0" key="CommitChangelistDialog2" timestamp="1614476816476">
+    <state x="331" y="0" width="741" height="900" key="CommitChangelistDialog2" timestamp="1614496124711">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="331" y="0" width="741" height="900" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614496124711" />
     <state x="331" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1614476816476" />
     <state x="555" y="354" key="Github.CreateGistDialog" timestamp="1614479756848">
       <screen x="0" y="0" width="1440" height="900" />
@@ -167,46 +788,59 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="448" y="74" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1614480129388" />
-    <state width="1398" height="252" key="GridCell.Tab.0.bottom" timestamp="1614476086966">
+    <state width="1398" height="240" key="GridCell.Tab.0.bottom" timestamp="1614503308113">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="240" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614503308113" />
     <state width="1398" height="252" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614476086966" />
-    <state width="1398" height="252" key="GridCell.Tab.0.center" timestamp="1614476086965">
+    <state width="1398" height="240" key="GridCell.Tab.0.center" timestamp="1614503308111">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="240" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614503308111" />
     <state width="1398" height="252" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1614476086965" />
-    <state width="1398" height="252" key="GridCell.Tab.0.left" timestamp="1614476086964">
+    <state width="1398" height="240" key="GridCell.Tab.0.left" timestamp="1614503308110">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="240" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614503308110" />
     <state width="1398" height="252" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1614476086964" />
-    <state width="1398" height="252" key="GridCell.Tab.0.right" timestamp="1614476086966">
+    <state width="1398" height="240" key="GridCell.Tab.0.right" timestamp="1614503308112">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="240" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614503308112" />
     <state width="1398" height="252" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1614476086966" />
-    <state width="1398" height="252" key="GridCell.Tab.1.bottom" timestamp="1614476086969">
+    <state width="1398" height="252" key="GridCell.Tab.1.bottom" timestamp="1614499429150">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="252" key="GridCell.Tab.1.bottom/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614499429150" />
     <state width="1398" height="252" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614476086969" />
-    <state width="1398" height="252" key="GridCell.Tab.1.center" timestamp="1614476086968">
+    <state width="1398" height="252" key="GridCell.Tab.1.center" timestamp="1614499429149">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="252" key="GridCell.Tab.1.center/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614499429149" />
     <state width="1398" height="252" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1614476086968" />
-    <state width="1398" height="252" key="GridCell.Tab.1.left" timestamp="1614476086967">
+    <state width="1398" height="252" key="GridCell.Tab.1.left" timestamp="1614499429148">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="252" key="GridCell.Tab.1.left/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614499429148" />
     <state width="1398" height="252" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1614476086967" />
-    <state width="1398" height="252" key="GridCell.Tab.1.right" timestamp="1614476086969">
+    <state width="1398" height="252" key="GridCell.Tab.1.right" timestamp="1614499429150">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="252" key="GridCell.Tab.1.right/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614499429150" />
     <state width="1398" height="252" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1614476086969" />
     <state x="224" y="86" key="SettingsEditor" timestamp="1614479983378">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="86" key="SettingsEditor/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614425777971" />
     <state x="224" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1614479983378" />
-    <state x="548" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614475911630">
+    <state x="320" y="183" key="Vcs.Push.Dialog.v2" timestamp="1614496133124">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="320" y="183" key="Vcs.Push.Dialog.v2/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614496133124" />
+    <state x="548" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614496105086">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="548" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614496105086" />
     <state x="548" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1614475911630" />
     <state x="532" y="324" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1614479726344">
       <screen x="0" y="0" width="1440" height="900" />
@@ -222,7 +856,9 @@
     <state x="573" y="407" width="525" height="457" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1440.900@0.0.1440.900" timestamp="1614429846849" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/study$train.coverage" NAME="train Coverage Results" MODIFIED="1614502751431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch基础学习/优化" />
+    <SUITE FILE_PATH="coverage/study$detect.coverage" NAME="detect Coverage Results" MODIFIED="1614503308096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch基础学习/优化" />
     <SUITE FILE_PATH="coverage/study$model.coverage" NAME="model Coverage Results" MODIFIED="1614435992660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch基础/练习" />
-    <SUITE FILE_PATH="coverage/study$dataset.coverage" NAME="dataset Coverage Results" MODIFIED="1614434840021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch基础/练习" />
+    <SUITE FILE_PATH="coverage/study$dataset.coverage" NAME="dataset Coverage Results" MODIFIED="1614499488698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch基础/练习" />
   </component>
 </project>
