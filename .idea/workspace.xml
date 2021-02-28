@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c0d24aa4-5a4f-4442-95c1-cdf3a46337f1" name="默认的" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="52555e78-50b4-4178-9ace-eb48991b12b7" />
+  <component name="ProjectId" id="1p3xfqwOUAerK3BN5ptwIvFpjFf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager" selected="Python.model">
+    <configuration name="dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytorch基础/练习" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytorch基础/练习/dataset.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytorch基础/练习" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytorch基础/练习/model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.model" />
+        <item itemvalue="Python.dataset" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0d24aa4-5a4f-4442-95c1-cdf3a46337f1" name="默认的" comment="" />
+      <created>1614425682938</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614425682938</updated>
+      <workItem from="1614425684711" duration="1828000" />
+      <workItem from="1614430357541" duration="100000" />
+      <workItem from="1614430458872" duration="8472000" />
+      <workItem from="1614476108260" duration="1542000" />
+      <workItem from="1614479965154" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="109" width="1071" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614430492362">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="109" width="1071" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1614430492362" />
+    <state x="517" y="246" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614430278925">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="517" y="246" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1614430278925" />
+    <state x="445" y="278" key="#通知" timestamp="1614476721778">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="445" y="278" key="#通知/0.0.1440.900@0.0.1440.900" timestamp="1614476721778" />
+    <state x="331" y="0" key="CommitChangelistDialog2" timestamp="1614476816476">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="331" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1614476816476" />
+    <state x="555" y="354" key="Github.CreateGistDialog" timestamp="1614479756848">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="555" y="354" key="Github.CreateGistDialog/0.0.1440.900@0.0.1440.900" timestamp="1614479756848" />
+    <state x="621" y="354" width="348" height="192" key="Github.ShareDialog" timestamp="1614476988973">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="621" y="354" width="348" height="192" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1614476988973" />
+    <state x="448" y="74" key="Github.UntrackedFilesDialog" timestamp="1614474117875">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="448" y="74" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1614474117875" />
+    <state width="1398" height="252" key="GridCell.Tab.0.bottom" timestamp="1614476086966">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="252" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614476086966" />
+    <state width="1398" height="252" key="GridCell.Tab.0.center" timestamp="1614476086965">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="252" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1614476086965" />
+    <state width="1398" height="252" key="GridCell.Tab.0.left" timestamp="1614476086964">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="252" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1614476086964" />
+    <state width="1398" height="252" key="GridCell.Tab.0.right" timestamp="1614476086966">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="252" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1614476086966" />
+    <state width="1398" height="252" key="GridCell.Tab.1.bottom" timestamp="1614476086969">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="252" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614476086969" />
+    <state width="1398" height="252" key="GridCell.Tab.1.center" timestamp="1614476086968">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="252" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1614476086968" />
+    <state width="1398" height="252" key="GridCell.Tab.1.left" timestamp="1614476086967">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="252" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1614476086967" />
+    <state width="1398" height="252" key="GridCell.Tab.1.right" timestamp="1614476086969">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="252" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1614476086969" />
+    <state x="224" y="86" key="SettingsEditor" timestamp="1614479983378">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="86" key="SettingsEditor/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614425777971" />
+    <state x="224" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1614479983378" />
+    <state x="548" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614475911630">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="548" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1614475911630" />
+    <state x="532" y="324" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1614479726344">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="532" y="324" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1440.900@0.0.1440.900" timestamp="1614479726344" />
+    <state x="472" y="340" key="git4idea.ui.GitResetDialog" timestamp="1614476936508">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="472" y="340" key="git4idea.ui.GitResetDialog/0.0.1440.900@0.0.1440.900" timestamp="1614476936508" />
+    <state x="573" y="407" width="525" height="457" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1614429846849">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="573" y="407" width="525" height="457" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1440.900@0.0.1440.900" timestamp="1614429846849" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/study$model.coverage" NAME="model Coverage Results" MODIFIED="1614435992660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch基础/练习" />
+    <SUITE FILE_PATH="coverage/study$dataset.coverage" NAME="dataset Coverage Results" MODIFIED="1614434840021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch基础/练习" />
+  </component>
+</project>
