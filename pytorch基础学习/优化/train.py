@@ -61,8 +61,8 @@ def train():
         net.train()
         for i, data in enumerate(train_loader):
             inputs, labels = data
-            inputs.to(device)
-            labels.to(device)
+            inputs = inputs.to(device)
+            labels = labels.to(device)
             outputs = net(inputs)
 
             optimizer.zero_grad()
@@ -94,8 +94,8 @@ def train():
             with torch.no_grad():
                 for j, data in enumerate(valid_loader):
                     inputs, labels = data
-                    inputs.to(device)
-                    labels.to(device)
+                    inputs = inputs.to(device)
+                    labels = labels.to(device)
                     outputs = net(inputs)
                     loss = criterion(outputs, labels)
 
