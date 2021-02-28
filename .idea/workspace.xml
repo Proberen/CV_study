@@ -12,7 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c0d24aa4-5a4f-4442-95c1-cdf3a46337f1" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +212,7 @@
       <workItem from="1614430357541" duration="100000" />
       <workItem from="1614430458872" duration="8472000" />
       <workItem from="1614476108260" duration="1542000" />
-      <workItem from="1614479965154" duration="8289000" />
+      <workItem from="1614479965154" duration="8374000" />
     </task>
     <task id="LOCAL-00001" summary="v2">
       <created>1614496124895</created>
@@ -229,7 +228,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614503452661</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="v2_2.18 pytorch学习结束">
+      <created>1614507442597</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614507442597</updated>
+    </task>
+    <task id="LOCAL-00004" summary="v2_2.18 pytorch学习结束">
+      <created>1614507466919</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614507466919</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,11 +284,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="445" y="278" key="#通知/0.0.1440.900@0.0.1440.900" timestamp="1614476721778" />
-    <state x="331" y="0" width="741" height="900" key="CommitChangelistDialog2" timestamp="1614503448949">
+    <state x="331" y="0" width="741" height="900" key="CommitChangelistDialog2" timestamp="1614507466764">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="331" y="0" width="741" height="900" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614503448949" />
-    <state x="331" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1614476816476" />
+    <state x="331" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1614507466764" />
     <state x="555" y="354" key="Github.CreateGistDialog" timestamp="1614479756848">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -333,10 +346,11 @@
     </state>
     <state x="229" y="86" key="SettingsEditor/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614425777971" />
     <state x="224" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1614479983378" />
-    <state x="320" y="183" key="Vcs.Push.Dialog.v2" timestamp="1614503459696">
+    <state x="320" y="183" key="Vcs.Push.Dialog.v2" timestamp="1614507444781">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="183" key="Vcs.Push.Dialog.v2/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614503459696" />
+    <state x="320" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1614507444781" />
     <state x="548" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614507287939">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
