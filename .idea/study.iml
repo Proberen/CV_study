@@ -7,6 +7,10 @@
       <sourceFolder url="file://$MODULE_DIR$/pytorch基础学习/优化" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/pytorch基础学习/练习" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/yolo基础学习/学习" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/yolo基础学习/学习/utils" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/yolo基础学习" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/yolo_v3/utils" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/yolo_v3" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6 (deeplearning) (2)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

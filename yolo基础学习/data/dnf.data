@@ -1,4 +1,0 @@
-classes=3
-train=./data/train.txt
-valid=./data/val.txt
-names=./data/dnf.names

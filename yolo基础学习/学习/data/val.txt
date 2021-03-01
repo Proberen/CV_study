@@ -1,8 +1,0 @@
-../data/Images/1598671617044.png
-../data/Images/1598671593835.png
-../data/Images/1598671695773.png
-../data/Images/1598671768954.png
-../data/Images/1598671597169.png
-../data/Images/1598671712279.png
-../data/Images/1598671715648.png
-../data/Images/1598671653023.png
