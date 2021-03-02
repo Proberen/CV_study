@@ -28,6 +28,7 @@ def test(cfg,
         for f in glob.glob('test_batch*.png'):
             os.remove(f)
 
+        print("11111111111111111111 ")
         # Initialize model
         model = Darknet(cfg, img_size)
 

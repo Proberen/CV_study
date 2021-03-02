@@ -178,7 +178,7 @@ def train():
     nw = min([os.cpu_count(), batch_size if batch_size > 1 else 0, 1])  # number of workers
     dataloader = torch.utils.data.DataLoader(dataset,
                                              batch_size=batch_size,
-                                             num_workers=nw,
+                                             num_workers=0,
                                              shuffle=not opt.rect,  #not opt.rect  Shuffle=True unless rectangular training is used
                                              pin_memory=True,
                                              collate_fn=dataset.collate_fn)
@@ -190,7 +190,7 @@ def train():
                                                                  cache_images=opt.cache_images,
                                                                  single_cls=opt.single_cls),
                                              batch_size=batch_size * 2,
-                                             num_workers=nw,
+                                             num_workers=0,
                                              pin_memory=True,
                                              collate_fn=dataset.collate_fn)
 
@@ -314,6 +314,7 @@ def train():
         final_epoch = epoch + 1 == epochs
         if not opt.notest or final_epoch:  # Calculate mAP
             is_coco = any([x in data for x in ['coco.data', 'coco2014.data', 'coco2017.data']]) and model.nc == 80
+            print('test!!!!!')
             results, maps = test.test(cfg,
                                       data,
                                       batch_size=batch_size * 2,
@@ -395,7 +396,7 @@ def train():
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--epochs', type=int, default=300)  # 500200 batches at bs 16, 117263 COCO images = 273 epochs
+    parser.add_argument('--epochs', type=int, default=100)  # 500200 batches at bs 16, 117263 COCO images = 273 epochs
     parser.add_argument('--batch-size', type=int, default=16)  # effective bs = batch_size * accumulate = 16 * 4 = 64
     parser.add_argument('--accumulate', type=int, default=4, help='batches to accumulate before optimizing')
     parser.add_argument('--cfg', type=str, default='cfg/yolov3-tiny-3cls.cfg', help='*.cfg path')

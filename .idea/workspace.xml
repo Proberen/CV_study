@@ -11,16 +11,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0d24aa4-5a4f-4442-95c1-cdf3a46337f1" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/yolo_v3/data/samples/1598671521137.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolo_v3/data/samples/1598671537012.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolo_v3/output/1598671537012.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolo_v3/results.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolo_v3/test_batch0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolo_v3/train_batch0.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/data/1614586025661.png" beforeDir="false" afterPath="$PROJECT_DIR$/python部分补充学习/data/1614586025661.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/data/1614586029028.png" beforeDir="false" afterPath="$PROJECT_DIR$/python部分补充学习/data/1614586029028.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/data/1614586032439.png" beforeDir="false" afterPath="$PROJECT_DIR$/python部分补充学习/data/1614586032439.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/data/1614586035812.png" beforeDir="false" afterPath="$PROJECT_DIR$/python部分补充学习/data/1614586035812.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/data/1614586039101.png" beforeDir="false" afterPath="$PROJECT_DIR$/python部分补充学习/data/1614586039101.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/data/1614586042440.png" beforeDir="false" afterPath="$PROJECT_DIR$/python部分补充学习/data/1614586042440.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/screen_capture.py" beforeDir="false" afterPath="$PROJECT_DIR$/python部分补充学习/screen_capture.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolo_v3/utils/datasets.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo_v3/utils/datasets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/LR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/data/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo_v3/data/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/data/train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo_v3/data/train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/data/val.shapes" beforeDir="false" afterPath="$PROJECT_DIR$/yolo_v3/data/val.shapes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/data/val.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo_v3/data/val.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/detect.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo_v3/detect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/results.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo_v3/results.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Dec01_00-21-31_DESKTOP-JQ7DNKA/events.out.tfevents.1606753291.DESKTOP-JQ7DNKA.9000.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Dec02_21-44-05_DESKTOP-JQ7DNKA/events.out.tfevents.1606916645.DESKTOP-JQ7DNKA.10208.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Dec02_21-45-47_DESKTOP-JQ7DNKA/events.out.tfevents.1606916747.DESKTOP-JQ7DNKA.8860.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Dec02_21-50-44_DESKTOP-JQ7DNKA/events.out.tfevents.1606917044.DESKTOP-JQ7DNKA.13980.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Dec02_21-57-54_DESKTOP-JQ7DNKA/events.out.tfevents.1606917474.DESKTOP-JQ7DNKA.8540.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Dec02_22-00-15_DESKTOP-JQ7DNKA/events.out.tfevents.1606917615.DESKTOP-JQ7DNKA.13356.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Dec02_22-02-50_DESKTOP-JQ7DNKA/events.out.tfevents.1606917770.DESKTOP-JQ7DNKA.15020.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Dec02_22-04-18_DESKTOP-JQ7DNKA/events.out.tfevents.1606917858.DESKTOP-JQ7DNKA.4248.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Dec02_22-07-33_DESKTOP-JQ7DNKA/events.out.tfevents.1606918053.DESKTOP-JQ7DNKA.9492.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Dec02_22-08-21_DESKTOP-JQ7DNKA/events.out.tfevents.1606918101.DESKTOP-JQ7DNKA.3368.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Dec02_22-20-31_DESKTOP-JQ7DNKA/events.out.tfevents.1606918831.DESKTOP-JQ7DNKA.15220.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Dec02_22-57-00_DESKTOP-JQ7DNKA/events.out.tfevents.1606921020.DESKTOP-JQ7DNKA.15044.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Dec02_23-10-58_DESKTOP-JQ7DNKA/events.out.tfevents.1606921858.DESKTOP-JQ7DNKA.13484.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Dec02_23-11-57_DESKTOP-JQ7DNKA/events.out.tfevents.1606921917.DESKTOP-JQ7DNKA.8352.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Dec02_23-12-07_DESKTOP-JQ7DNKA/events.out.tfevents.1606921927.DESKTOP-JQ7DNKA.3968.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Dec02_23-13-26_DESKTOP-JQ7DNKA/events.out.tfevents.1606922006.DESKTOP-JQ7DNKA.13860.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Dec02_23-14-17_DESKTOP-JQ7DNKA/events.out.tfevents.1606922057.DESKTOP-JQ7DNKA.14504.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Dec02_23-16-23_DESKTOP-JQ7DNKA/events.out.tfevents.1606922183.DESKTOP-JQ7DNKA.11340.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Dec02_23-18-09_DESKTOP-JQ7DNKA/events.out.tfevents.1606922289.DESKTOP-JQ7DNKA.13188.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Dec02_23-18-41_DESKTOP-JQ7DNKA/events.out.tfevents.1606922321.DESKTOP-JQ7DNKA.3664.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Dec02_23-19-11_DESKTOP-JQ7DNKA/events.out.tfevents.1606922351.DESKTOP-JQ7DNKA.10512.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Dec02_23-19-55_DESKTOP-JQ7DNKA/events.out.tfevents.1606922395.DESKTOP-JQ7DNKA.13320.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Dec02_23-58-49_DESKTOP-JQ7DNKA/events.out.tfevents.1606924729.DESKTOP-JQ7DNKA.10796.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Dec03_00-03-26_DESKTOP-JQ7DNKA/events.out.tfevents.1606925006.DESKTOP-JQ7DNKA.14212.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Dec03_00-08-06_DESKTOP-JQ7DNKA/events.out.tfevents.1606925286.DESKTOP-JQ7DNKA.2704.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Dec03_00-14-54_DESKTOP-JQ7DNKA/events.out.tfevents.1606925694.DESKTOP-JQ7DNKA.4516.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Dec03_00-15-29_DESKTOP-JQ7DNKA/events.out.tfevents.1606925729.DESKTOP-JQ7DNKA.14820.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Dec03_00-39-52_DESKTOP-JQ7DNKA/events.out.tfevents.1606927192.DESKTOP-JQ7DNKA.6172.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Dec03_00-44-22_DESKTOP-JQ7DNKA/events.out.tfevents.1606927462.DESKTOP-JQ7DNKA.152.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Dec04_09-56-54_DESKTOP-JQ7DNKA/events.out.tfevents.1607047014.DESKTOP-JQ7DNKA.8100.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Dec06_15-09-08_DESKTOP-JQ7DNKA/events.out.tfevents.1607238548.DESKTOP-JQ7DNKA.12620.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Nov30_23-39-54_DESKTOP-JQ7DNKA/events.out.tfevents.1606750794.DESKTOP-JQ7DNKA.11000.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Nov30_23-45-18_DESKTOP-JQ7DNKA/events.out.tfevents.1606751118.DESKTOP-JQ7DNKA.8264.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/runs/Nov30_23-50-16_DESKTOP-JQ7DNKA/events.out.tfevents.1606751416.DESKTOP-JQ7DNKA.15236.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo_v3/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo_v3/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/utils/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo_v3/utils/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/weights/best.pt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo_v3/weights/best.pt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_v3/weights/last.pt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo_v3/weights/last.pt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +95,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/yolo基础学习/学习/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/yolo_v3/data/samples" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -61,16 +105,17 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/yolo基础学习/学习" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/yolo_v3/data/samples" />
       <recent name="$PROJECT_DIR$/yolo基础学习/学习/data" />
       <recent name="$PROJECT_DIR$/yolo基础学习/学习" />
       <recent name="$PROJECT_DIR$/pytorch基础/优化" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/yolo基础学习/学习" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.train (1)">
+  <component name="RunManager" selected="Python.detect">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,6 +130,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="detect" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/opt/anaconda3/envs/deeplearning/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/yolo_v3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yolo_v3/detect.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/opt/anaconda3/envs/deeplearning/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/yolo_v3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yolo_v3/game.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,28 +204,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="screen_capture" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/opt/anaconda3/envs/deeplearning/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python基础" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python基础/screen_capture.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="train (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,28 +218,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yolo_v3/train.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytorch基础学习/优化" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytorch基础学习/优化/train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,19 +249,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.train" />
-      <item itemvalue="Python.screen_capture" />
       <item itemvalue="Python.makeTxt" />
       <item itemvalue="Python.voc_label" />
       <item itemvalue="Python.train (1)" />
+      <item itemvalue="Python.game" />
+      <item itemvalue="Python.detect" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.detect" />
         <item itemvalue="Python.train (1)" />
+        <item itemvalue="Python.game" />
         <item itemvalue="Python.voc_label" />
         <item itemvalue="Python.makeTxt" />
-        <item itemvalue="Python.screen_capture" />
-        <item itemvalue="Python.train" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +278,11 @@
       <workItem from="1614430458872" duration="8472000" />
       <workItem from="1614476108260" duration="1542000" />
       <workItem from="1614479965154" duration="8510000" />
-      <workItem from="1614584747010" duration="14436000" />
+      <workItem from="1614584747010" duration="14477000" />
+      <workItem from="1614610158696" duration="605000" />
+      <workItem from="1614659018493" duration="4939000" />
+      <workItem from="1614668787735" duration="107000" />
+      <workItem from="1614674965697" duration="2681000" />
     </task>
     <task id="LOCAL-00001" summary="v2">
       <created>1614496124895</created>
@@ -298,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614600707416</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="v3_3.1 结束">
+      <created>1614609817135</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1614609817135</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +379,8 @@
     </ignored-roots>
     <MESSAGE value="v2" />
     <MESSAGE value="v2_2.18 pytorch学习结束" />
-    <option name="LAST_COMMIT_MESSAGE" value="v2_2.18 pytorch学习结束" />
+    <MESSAGE value="v3_3.1 结束" />
+    <option name="LAST_COMMIT_MESSAGE" value="v3_3.1 结束" />
   </component>
   <component name="WindowStateProjectService">
     <state x="476" y="278" key="#Notifications" timestamp="1614584781019">
@@ -340,19 +397,24 @@
     </state>
     <state x="517" y="246" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614496809939" />
     <state x="517" y="246" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1614599802164" />
-    <state x="458" y="200" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614586616200">
+    <state x="458" y="200" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614676589365">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="458" y="200" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1614586616200" />
+    <state x="458" y="200" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1614676589365" />
     <state x="445" y="278" key="#通知" timestamp="1614476721778">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="445" y="278" key="#通知/0.0.1440.900@0.0.1440.900" timestamp="1614476721778" />
-    <state x="217" y="0" width="741" height="900" key="CommitChangelistDialog2" timestamp="1614600702931">
+    <state x="217" y="0" width="741" height="900" key="CommitChangelistDialog2" timestamp="1614609816796">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="331" y="0" width="741" height="900" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614503448949" />
-    <state x="217" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1614600702931" />
+    <state x="217" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1614609816796" />
+    <state width="1440" height="695" key="DebuggerActiveHint" timestamp="1614663113051">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="695" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1614663113051" />
+    <state width="1440" height="618" key="DebuggerActiveHint/0.25.1440.801@0.25.1440.801" timestamp="1614662598783" />
     <state x="555" y="354" key="Github.CreateGistDialog" timestamp="1614479756848">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -365,60 +427,60 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="448" y="74" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1614480129388" />
-    <state width="1398" height="240" key="GridCell.Tab.0.bottom" timestamp="1614604430664">
+    <state width="1398" height="346" key="GridCell.Tab.0.bottom" timestamp="1614679173671">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="240" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614503308113" />
-    <state width="1398" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614604430664" />
+    <state width="1398" height="346" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614679173671" />
     <state width="682" height="240" key="GridCell.Tab.0.bottom/0.25.1440.799@0.25.1440.799" timestamp="1614586021440" />
-    <state width="1398" height="240" key="GridCell.Tab.0.center" timestamp="1614604430663">
+    <state width="1398" height="346" key="GridCell.Tab.0.center" timestamp="1614679173669">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="240" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614503308111" />
-    <state width="1398" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1614604430663" />
+    <state width="1398" height="346" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1614679173669" />
     <state width="682" height="240" key="GridCell.Tab.0.center/0.25.1440.799@0.25.1440.799" timestamp="1614586021439" />
-    <state width="1398" height="240" key="GridCell.Tab.0.left" timestamp="1614604430662">
+    <state width="1398" height="346" key="GridCell.Tab.0.left" timestamp="1614679173669">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="240" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614503308110" />
-    <state width="1398" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1614604430662" />
+    <state width="1398" height="346" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1614679173669" />
     <state width="682" height="240" key="GridCell.Tab.0.left/0.25.1440.799@0.25.1440.799" timestamp="1614586021439" />
-    <state width="1398" height="240" key="GridCell.Tab.0.right" timestamp="1614604430664">
+    <state width="1398" height="346" key="GridCell.Tab.0.right" timestamp="1614679173670">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="240" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614503308112" />
-    <state width="1398" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1614604430664" />
+    <state width="1398" height="346" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1614679173670" />
     <state width="682" height="240" key="GridCell.Tab.0.right/0.25.1440.799@0.25.1440.799" timestamp="1614586021439" />
-    <state width="1398" height="252" key="GridCell.Tab.1.bottom" timestamp="1614525555937">
+    <state width="1398" height="29" key="GridCell.Tab.1.bottom" timestamp="1614676372787">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="252" key="GridCell.Tab.1.bottom/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614499429150" />
-    <state width="1398" height="252" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614525555937" />
-    <state width="1398" height="252" key="GridCell.Tab.1.center" timestamp="1614525555937">
+    <state width="1398" height="29" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614676372787" />
+    <state width="1398" height="29" key="GridCell.Tab.1.center" timestamp="1614676372786">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="252" key="GridCell.Tab.1.center/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614499429149" />
-    <state width="1398" height="252" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1614525555937" />
-    <state width="1398" height="252" key="GridCell.Tab.1.left" timestamp="1614525555936">
+    <state width="1398" height="29" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1614676372786" />
+    <state width="1398" height="29" key="GridCell.Tab.1.left" timestamp="1614676372785">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="252" key="GridCell.Tab.1.left/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614499429148" />
-    <state width="1398" height="252" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1614525555936" />
-    <state width="1398" height="252" key="GridCell.Tab.1.right" timestamp="1614525555937">
+    <state width="1398" height="29" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1614676372785" />
+    <state width="1398" height="29" key="GridCell.Tab.1.right" timestamp="1614676372786">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="252" key="GridCell.Tab.1.right/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614499429150" />
-    <state width="1398" height="252" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1614525555937" />
+    <state width="1398" height="29" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1614676372786" />
     <state x="224" y="86" key="SettingsEditor" timestamp="1614588640732">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="86" key="SettingsEditor/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614425777971" />
     <state x="224" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1614588640732" />
-    <state x="320" y="183" key="Vcs.Push.Dialog.v2" timestamp="1614600707608">
+    <state x="320" y="183" key="Vcs.Push.Dialog.v2" timestamp="1614609819458">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="183" key="Vcs.Push.Dialog.v2/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1614503459696" />
-    <state x="320" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1614600707608" />
+    <state x="320" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1614609819458" />
     <state x="548" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614507287939">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -437,12 +499,24 @@
     </state>
     <state x="573" y="407" width="525" height="457" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1440.900@0.0.1440.900" timestamp="1614429846849" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/yolo_v3/test.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/study$screen_capture.coverage" NAME="screen_capture Coverage Results" MODIFIED="1614586021429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python基础" />
     <SUITE FILE_PATH="coverage/study$train.coverage" NAME="train Coverage Results" MODIFIED="1614510575227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch基础学习/优化" />
-    <SUITE FILE_PATH="coverage/study$detect.coverage" NAME="detect Coverage Results" MODIFIED="1614510559071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch基础学习/优化" />
     <SUITE FILE_PATH="coverage/study$voc_label.coverage" NAME="voc_label Coverage Results" MODIFIED="1614587982545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yolo基础学习/学习/data" />
-    <SUITE FILE_PATH="coverage/study$train__1_.coverage" NAME="train (1) Coverage Results" MODIFIED="1614604430652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yolo_v3" />
+    <SUITE FILE_PATH="coverage/study$detect.coverage" NAME="detect Coverage Results" MODIFIED="1614679173653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yolo_v3" />
+    <SUITE FILE_PATH="coverage/study$train__1_.coverage" NAME="train (1) Coverage Results" MODIFIED="1614676601531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yolo_v3" />
+    <SUITE FILE_PATH="coverage/study$game.coverage" NAME="game Coverage Results" MODIFIED="1614676022848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yolo_v3" />
     <SUITE FILE_PATH="coverage/study$model.coverage" NAME="model Coverage Results" MODIFIED="1614435992660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch基础/练习" />
     <SUITE FILE_PATH="coverage/study$makeTxt.coverage" NAME="makeTxt Coverage Results" MODIFIED="1614587508342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yolo基础学习/学习/data" />
     <SUITE FILE_PATH="coverage/study$dataset.coverage" NAME="dataset Coverage Results" MODIFIED="1614499488698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch基础/练习" />

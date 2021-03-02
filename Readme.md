@@ -21,3 +21,10 @@ Yolo_v3源码：https://github.com/ayooshkathuria/YOLO_v3_tutorial_from_scratch
 1、训练集、测试集、验证集划分（学习目录下的makeTxt.py文件）
 
 2、xml文件转txt文件（学习目录下的voc_label.py文件），最后在txt目录下生成每个xml文件对应的标签结果，在根目录下生成train.txt、val.txt、text.txt
+
+#### 模型训练
+运行train.py文件
+#### 测试
+在data/samples/目录下放置图片或者视频
+
+结果输出到output目录下
