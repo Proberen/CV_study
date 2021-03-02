@@ -30,3 +30,6 @@ Yolo_v3源码：https://github.com/ayooshkathuria/YOLO_v3_tutorial_from_scratch
 结果输出到output目录下
 
 最终输出结果预览
+
+![1598671537012](https://user-images.githubusercontent.com/57889284/109632633-38922980-7b82-11eb-9cb4-d123ae58912c.png)
+
