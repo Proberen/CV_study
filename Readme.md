@@ -28,3 +28,5 @@ Yolo_v3源码：https://github.com/ayooshkathuria/YOLO_v3_tutorial_from_scratch
 在data/samples/目录下放置图片或者视频
 
 结果输出到output目录下
+
+最终输出结果预览
